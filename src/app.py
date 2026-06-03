@@ -12,7 +12,7 @@ except ImportError:
     print("customtkinter not installed. Run: pip install customtkinter")
     sys.exit(1)
 
-from src.organizer import organize_files, get_folder_stats
+from organizer import organize_files, get_folder_stats
 
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
