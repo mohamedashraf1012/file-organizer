@@ -68,19 +68,6 @@ pipeline {
                     echo "✅ All tests passed!"
                 '''
             }
-            post {
-                always {
-                    // Publish coverage report if plugin installed
-                    publishHTML(target: [
-                        allowMissing: true,
-                        alwaysLinkToLastBuild: true,
-                        keepAll: true,
-                        reportDir: 'htmlcov',
-                        reportFiles: 'index.html',
-                        reportName: 'Coverage Report'
-                    ])
-                }
-            }
         }
 
         // ── Stage 5: Headless Run ─────────────────────────────────────────
