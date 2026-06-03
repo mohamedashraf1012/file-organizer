@@ -1,5 +1,8 @@
 import sys
-sys.path.insert(0, '.')
+import os
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from src.organizer import organize_files, get_folder_stats
 
 stats = get_folder_stats('test_data')
