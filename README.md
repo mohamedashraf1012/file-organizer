@@ -106,6 +106,22 @@ src/organizer.py    94% coverage
 ```
 
 ---
+---
+
+## 📊 Test Coverage
+
+```
+src/organizer.py    94% coverage
+32 tests — all passing ✅
+```
+
+---
+---
+
+## 📊 GUI After running
+
+![alt text](image.png)
+---
 
 ## 👤 Author
 
