@@ -111,6 +111,7 @@ src/organizer.py    94% coverage
 ## 📊 GUI After running
 
 ![alt text](image.png)
+
 ---
 
 ## 👤 Author
