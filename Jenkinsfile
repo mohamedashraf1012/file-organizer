@@ -77,23 +77,10 @@ pipeline {
                 sh '''
                     . ${VENV_DIR}/bin/activate
                     mkdir -p test_data
-                    # create sample files for headless test
                     touch test_data/photo.jpg test_data/script.py test_data/doc.pdf
                     touch test_data/music.mp3 test_data/archive.zip test_data/unknown.xyz
-
-                    python3 -c "
-import sys
-sys.path.insert(0, '.')
-from src.organizer import organize_files, get_folder_stats
-
-stats = get_folder_stats('test_data')
-print('📊 Stats before:', stats)
-
-summary = organize_files('test_data', dry_run=True)
-print(f'✅ Dry run: {summary[\"moved\"]} files simulated | {summary[\"errors\"]} errors')
-assert summary['errors'] == 0, 'Headless validation failed: errors detected'
-print('✅ Headless validation passed!')
-"
+                    python3 src/headless_check.py
+                    echo "✅ Headless validation passed!"
                 '''
             }
         }
