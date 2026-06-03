@@ -1,0 +1,36 @@
+2026-06-03 09:13:43,438 - INFO - Moved: doc.pdf → Documents/
+2026-06-03 09:13:43,438 - INFO - Done! Total: 1 | Moved: 1 | Errors: 0
+2026-06-03 09:13:43,441 - INFO - Done! Total: 0 | Moved: 0 | Errors: 0
+2026-06-03 09:13:43,444 - INFO - Moved: image.jpg → Images/
+2026-06-03 09:13:43,444 - INFO - Done! Total: 1 | Moved: 1 | Errors: 0
+2026-06-03 09:13:43,447 - INFO - Moved: photo.jpg → Images/
+2026-06-03 09:13:43,447 - INFO - Moved: script.py → Code/
+2026-06-03 09:13:43,447 - INFO - Moved: doc.pdf → Documents/
+2026-06-03 09:13:43,448 - INFO - Done! Total: 3 | Moved: 3 | Errors: 0
+2026-06-03 09:13:43,451 - INFO - [DRY RUN] Moved: file.mp3 → Audio/
+2026-06-03 09:13:43,451 - INFO - Done! Total: 1 | Moved: 1 | Errors: 0
+2026-06-03 09:13:43,454 - INFO - [DRY RUN] Moved: a.jpg → Images/
+2026-06-03 09:13:43,454 - INFO - [DRY RUN] Moved: b.zip → Archives/
+2026-06-03 09:13:43,454 - INFO - Done! Total: 2 | Moved: 2 | Errors: 0
+2026-06-03 09:13:43,457 - INFO - Moved: a.jpg → Images/
+2026-06-03 09:13:43,457 - INFO - Moved: b.py → Code/
+2026-06-03 09:13:43,457 - INFO - Done! Total: 2 | Moved: 2 | Errors: 0
+2026-06-03 09:13:43,460 - INFO - Done! Total: 0 | Moved: 0 | Errors: 0
+2026-06-03 09:14:25,865 - INFO - Moved: doc.pdf → Documents/
+2026-06-03 09:14:25,865 - INFO - Done! Total: 1 | Moved: 1 | Errors: 0
+2026-06-03 09:14:25,866 - INFO - Done! Total: 0 | Moved: 0 | Errors: 0
+2026-06-03 09:14:25,867 - INFO - Moved: image.jpg → Images/
+2026-06-03 09:14:25,867 - INFO - Done! Total: 1 | Moved: 1 | Errors: 0
+2026-06-03 09:14:25,869 - INFO - Moved: photo.jpg → Images/
+2026-06-03 09:14:25,869 - INFO - Moved: script.py → Code/
+2026-06-03 09:14:25,869 - INFO - Moved: doc.pdf → Documents/
+2026-06-03 09:14:25,869 - INFO - Done! Total: 3 | Moved: 3 | Errors: 0
+2026-06-03 09:14:25,871 - INFO - [DRY RUN] Moved: file.mp3 → Audio/
+2026-06-03 09:14:25,871 - INFO - Done! Total: 1 | Moved: 1 | Errors: 0
+2026-06-03 09:14:25,872 - INFO - [DRY RUN] Moved: a.jpg → Images/
+2026-06-03 09:14:25,872 - INFO - [DRY RUN] Moved: b.zip → Archives/
+2026-06-03 09:14:25,872 - INFO - Done! Total: 2 | Moved: 2 | Errors: 0
+2026-06-03 09:14:25,873 - INFO - Moved: a.jpg → Images/
+2026-06-03 09:14:25,873 - INFO - Moved: b.py → Code/
+2026-06-03 09:14:25,874 - INFO - Done! Total: 2 | Moved: 2 | Errors: 0
+2026-06-03 09:14:25,875 - INFO - Done! Total: 0 | Moved: 0 | Errors: 0
