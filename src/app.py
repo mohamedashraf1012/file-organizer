@@ -12,7 +12,7 @@ except ImportError:
     print("customtkinter not installed. Run: pip install customtkinter")
     sys.exit(1)
 
-from src.organizer import organize_files, get_folder_stats, scan_folder
+from src.organizer import organize_files, get_folder_stats
 
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
@@ -341,7 +341,6 @@ class FileOrganizerApp(ctk.CTk):
         self.status_label.configure(text="Failed!", text_color=COLORS["red"])
 
     def _log(self, message: str, level: str = "info"):
-        color_map = {"info": COLORS["text"], "success": COLORS["green"], "error": COLORS["red"]}
         self.log_box.configure(state="normal")
         self.log_box.insert("end", message + "\n")
         self.log_box.configure(state="disabled")
