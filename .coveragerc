@@ -1,0 +1,9 @@
+[run]
+omit =
+    src/app.py
+    tests/*
+
+[report]
+omit =
+    src/app.py
+    tests/*

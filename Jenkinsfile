@@ -59,7 +59,8 @@ pipeline {
                     pytest tests/ \
                         -v \
                         --tb=short \
-                        --cov=src/organizer.py \
+                        --cov=src \
+                        --cov-config=.coveragerc \
                         --cov-report=term-missing \
                         --cov-report=xml:coverage.xml \
                         --cov-report=html:htmlcov \
